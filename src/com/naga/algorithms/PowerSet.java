@@ -21,7 +21,9 @@ public class PowerSet
 
 		Set<Set<Integer>> powSet = powerSet(set);
 		
+		System.out.println("power sets are.. " +powSet);
 		System.out.println("no. of subsets are.." +powSet.size());
+		
 		
 		Iterator<Set<Integer>> ite = powSet.iterator();
 		int key = 2;

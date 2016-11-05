@@ -7,13 +7,10 @@ public class ReverseArray
 
 	public static void main(String[] args)
 	{
-		 Scanner in = new Scanner(System.in);
-	        int n = in.nextInt();
-	        int[] arr = new int[n];
-	        for(int i=0; i < n; i++){
-	            arr[i] = in.nextInt();
-	        }
-	        in.close();
+		int arr[] = {4,5,6,7,8,9,10};
+		
+		int n = arr.length;
+		
 	        int temp = 0;
 	        for(int i=0;i<arr.length/2;i++)
 	        {

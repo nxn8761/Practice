@@ -7,8 +7,12 @@ public class StudentBean implements Serializable
 
 	private static final long serialVersionUID = 1L;
 
-	Integer id;
+	private Integer id;
 	
+	
+	public StudentBean()
+	{
+	}
 	
 	public StudentBean(int id)
 	{
