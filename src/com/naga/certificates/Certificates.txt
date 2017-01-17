@@ -1,0 +1,8 @@
+Install Certificates: C:\opt\isv\devtools\jdk1.7.0_40\jre\bin>keytool -import -alias LOYALTY_LOCAL -keystore ..\lib\security\cacerts -file C:\HD\LoyaltyCert.cer
+
+View ALL Certificates: C:\opt\isv\devtools\jdk1.7.0_40\jre\bin>keytool -list -keystore ..\lib\security\cacerts
+
+View Particular Certificate: C:\opt\isv\devtools\jdk1.7.0_40\jre\bin>keytool -list -keystore ..\lib\security\cacerts -alias LOYALTY_LOCAL
+
+Delete Certificate: C:\opt\isv\devtools\jdk1.6.0_20\jre\bin>keytool -delete -alias LOYALTY_LOCAL -keystore ..\lib\security\cacerts
+

@@ -29,4 +29,14 @@
     <servlet-name>LoginCounterServlet</servlet-name>
     <url-pattern>/LoginCounterServlet</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ServletLifeCycle</display-name>
+    <servlet-name>ServletLifeCycle</servlet-name>
+    <servlet-class>com.naga.servlets.ServletLifeCycle</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletLifeCycle</servlet-name>
+    <url-pattern>/ServletLifeCycle</url-pattern>
+  </servlet-mapping>
 </web-app>
