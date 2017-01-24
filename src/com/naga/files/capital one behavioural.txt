@@ -1,0 +1,52 @@
+﻿junit and write test case to use mock
+spring security
+data structures
+ ACID meaning
+ Normalization  
+ spring bean life cycles.
+ spring context.
+ 
+standard behavior interview, just be yourself , explain past situations and experience of your life.
+
+Give me a specific example of a time when you used good judgment and logic in solving a problem. group by
+  
+When in your job, u had to convince someone? satish
+
+When did u face a situation of two competitive goals and how u worked on it?
+
+Talk about a time you explained something technical to someone non-technical? How do you know they understood what you explained? par
+ 
+Have you ever had difficulty with a supervisor or instructor? How did you resolve the conflict?  christie and mainframe id
+
+Tell me about a major problem you recently handled. Were you successful in resolving it? either jdbc connection springboot or vpp manager
+
+Would you say that you can easily deal with high-pressure situations?
+
+What quality or attribute do you feel will most contribute to your career success?flexibility
+
+What personal weakness has caused you the greatest difficulty in school or on the job? Work Delegation
+
+Tell me about a time when you had to go above and beyond the call of duty to get a job done? 
+
+Give me an example of a time when you were able to successfully communicate with another person even when that individual may not have personally liked you (or vice versa).? 
+
+Describe a situation where others you were working with on a project disagreed with your ideas. What did you do? saravana citibank
+
+Describe a situation in which you found that your results were not up to your professor’s or supervisor’s expectations. What happened? What action did you take? christie and mainframe id
+
+
+Tell of a time when you worked with a colleague who was not completing his or her share of the work. Who, if anyone, did you tell or talk to about it? Did the manager take any steps to correct your colleague? yolanda
+
+Tell me about you had a conflict on a team project ? yolanda
+ 
+Did you agree or disagree with the manager’s actions?
+
+Describe a situation in which you had to arrive at a compromise or guide others to a compromise??
+
+
+Place 8 queens on chessboard where they cannot kill each other
+How would you design an implementation of a resume book? 
+Describe how you would build an online chat system between a customer and a representative. 
+
+
+Write an algorithm that finds the nth to last element in a linked list.  

@@ -1,0 +1,46 @@
+two arraylists, in the first there are 1000000000 records and in the second - 1000, what will be the most efficient way to find if the biggest array has any members from the smaller one;
+
+Write a program to find 100 largest numbers out of an array of 1 billion numbers;
+sort 1 million integers
+
+solution : http://stackoverflow.com/questions/19227698/write-a-program-to-find-100-largest-numbers-out-of-an-array-of-1-billion-numbers
+
+Find a duplicated integer in a list of 101 integers going from 0 to 99, there will be only one duplicate.
+  
+
+
+algorithm to find largest of 4 numbers
+
+
+find all subarrays 
+find all subarrays whose sum is equal to k
+find all subarrays whose sum is the maximum- kadane's Algorithm
+maximum element from each subarray of size k
+reverse array
+sum of all elements in array
+http://www.practice.geeksforgeeks.org/problem-page.php?pid=820
+http://www.practice.geeksforgeeks.org/problem-page.php?pid=700273
+http://www.practice.geeksforgeeks.org/problem-page.php?pid=700208
+https://www.hackerrank.com/challenges/sherlock-and-array
+Given an array A={a1,a2,…,aN} of N elements, find the maximum possible sum of given types of subarrays.
+
+
+ hackerrank is simple if you keep practising on the hackerrank platform. 2 onsite interviews are problem solving on Linked List, BST, System design , String One onsite interview with a person on various technologies you worked and what they expect
+ 
+  What is a table, view, materialized view 
+  
+  Given hardware that can read the state of a spinning disk, which can take states red, green, or blue, design an API for users to be able to interface with the hardware.
+  
+  Design ATM Machine
+  System design: Web ranking system.
+  Restaurent design
+  Design a database design (ER Diagram) for Itunes App store? 
+  
+ LRU Cache, Trees and other data structures and graph algorithms. 
+ OAuth. 
+ 
+ 
+ 
+ 
+	
+	
