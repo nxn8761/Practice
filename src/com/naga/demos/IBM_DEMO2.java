@@ -1,8 +1,8 @@
 package com.naga.demos;
 
-import java.util.LinkedList;
 import java.util.List;
 import java.util.StringTokenizer;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 public class IBM_DEMO2
 {
@@ -19,7 +19,9 @@ public class IBM_DEMO2
 		    
 		    StringTokenizer st = new StringTokenizer(s,"|");
 		    
-		    List<String> sList = new LinkedList<String>();
+		    List<String> sList = new CopyOnWriteArrayList<String>();
+		    
+		    
 		    
 		    int k = 0;
 		    while(st.hasMoreElements())
@@ -38,7 +40,7 @@ public class IBM_DEMO2
 		    		sList.remove(str);
 		    	}
 		    }
-		   /*// for(int i=0;i<sArr.length;i++)
+		   // for(int i=0;i<sArr.length;i++)
 		    for(int i=0;i<sList.size();i++)
 		    {
 		      //for(int j=0;j<sArr.length;j++)
@@ -70,7 +72,7 @@ public class IBM_DEMO2
 		        }
 		      }
 		    }
-		    */
+		    
 		    System.out.println(result.toString());
 
 	}

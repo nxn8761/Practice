@@ -1,0 +1,71 @@
+
+You will be given a sequence of passages, and must filter out any passage whose text (sequence of whitespace-delimited words) is wholly contained as a sub-passage of one or more of the other passages. When comparing for containment, certain rules must be followed:
+
+The case of alphabetic characters should be ignored
+Leading and trailing whitespace should be ignored
+Any other block of contiguous whitespace should be treated as a single space
+Quote " characters should be ignored.
+Commas , and Period . should be treated as equal
+Consecutive Hyphens - should be treated as a single hyphen
+Duplicates must also be filtered - if two passages are considered equal with respect to the comparison rules listed above, only the shortest should be retained. If they are also the same length, the earlier one in the input sequence should be kept. The retained passages should be output in their original form (identical to the input passage), and in the same order.
+
+
+Input:
+For each test case a single line comprising the passages (strings) to be processed, delimited by | characters. The | characters are not considered part of any passage.
+
+
+Output:
+A single line of filtered passages in the same |-delimited format.
+
+
+Test 1
+
+natural language processing|Natural Language Processing| three additional|program|programmatic computing plus the combination of three additional capabilities|"Combination"
+
+Expected Output 
+natural language processing|program|programmatic computing plus the combination of three additional capabilities
+
+Test 2
+"watson Represents"|watson represents|Watson represents a first step into cognitive systems -- a new era of computing.|first step into Cognitive|Cognitive Systems - a new era of computing,|what does watson represent
+
+Expected Output 
+Watson represents a first step into cognitive systems -- a new era of computing.|what does watson represent-------
+------------------------------------------------
+
+Programming Challenge Description:
+Watson is trying to ingest a semantic graph into its cognitive framework to enable a reasoning power similar to that of a human. To start with, the developers plan to test it by providing a dummy genealogy (family history) of a single person and to identify people that belong to that person's generation. Your goal is to develop an efficient algorithm for Watson to perform this task. To keep things simple, they just use a single relationship "isParentOf" between any two persons. For example, consider a genealogy represented as a set of triples:
+
+Mary isParentOf Bob
+Mary isParentOf Sam
+Bob isParentOf John
+Sam isParentOf Pete
+Sam isParentOf Katie
+The persons who belong to Bob's generation are Bob and Sam. The persons who belong to John's generation are John, Pete and Katie. Assumptions:
+
+There will be at least two generations (i.e., at least one isParentOf relationship).
+There can be a maximum of 15 children to a single parent
+No cross relationships would exist i.e., a person can have only one parent from previous generation
+No same generation relationships would exist
+There can be a maximum of 100 generations in the genealogy
+
+Input:
+R1,R2,R3,R4...Rn,Person
+
+R1...Rn - A comma separated list of "isParentOf" relationships. Each relationship being represented by an arrow "Person->Child".
+
+Person - The name of the person that we are interested in
+
+
+Output:
+A comma-separated list of names of people belonging to the specified generation in alphabetical order (single comma and no spaces between names)
+
+Frank->Mary,Mary->Sam,Mary->Bob,Sam->Katie,Sam->Pete,Bob->John,Bob
+
+Bob,Sam
+
+Sam->Pete,Pete->Nancy,Sam->Katie,Mary->Bob,Frank->Mary,Mary->Sam,Bob->John,Pete
+
+John,Katie,Pete
+
+
+Please take approximately 5-10 minutes to explain your approach to the "My Generation" genealogy exercise that you just completed. Include and support your rationale for how you approached the exercise.
